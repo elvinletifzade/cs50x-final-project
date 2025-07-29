@@ -1,6 +1,6 @@
 # Reminder
 
-#### 🎥 Video Demo: <https://youtu.be/YOUR_VIDEO_URL>
+#### 🎥 Video Demo: <https://youtu.be/OCCZpb2mfHE>
 #### 👨‍💻 Author: Elvin Latifzada
 #### 📅 Final Project for Harvard CS50x
 
