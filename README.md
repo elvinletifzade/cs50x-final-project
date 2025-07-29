@@ -74,8 +74,26 @@
 
 ---
 
+## 📝 Notes on Development Process
+As a full-stack developer with over 10 years of experience in both backend and frontend technologies — including PHP, Node.js, React, Next.js, Angular, and Flutter — I approached this project not just as a coursework requirement, but also as a chance to create something functional and efficient within the CS50 framework.
+
+Thanks to my background in algorithmic thinking and familiarity with a wide range of languages and frameworks, I was able to plan, structure, and implement the application quickly and confidently.
+
+That said, I did use ChatGPT in a supporting role throughout the development process — primarily to streamline repetitive tasks, clarify certain syntax rules, and bounce ideas for code structure and implementation.
+
+---
+❗ However, all critical decisions, system design, business logic, and final implementation were entirely my own. ChatGPT served as a productivity tool, not a replacement for original work or problem-solving.
+---
+
+This reflects a real-world development approach, where experienced engineers leverage modern tools and assistants to speed up workflows — while retaining full responsibility and authorship over their code.
+
+
+---
+
+
 ## 📁 Folder Structure
 
+```bash
 project/
 │
 ├── app.py                # Main Flask app
@@ -97,18 +115,3 @@ project/
 │   ├── add.html          # Add new reminder
 │   ├── edit.html         # Edit existing reminder
 │   └── profile.html      # User profile page (change username/password)
-
-
-## 📝 Notes on Development Process
-As a full-stack developer with over 10 years of experience in both backend and frontend technologies — including PHP, Node.js, React, Next.js, Angular, and Flutter — I approached this project not just as a coursework requirement, but also as a chance to create something functional and efficient within the CS50 framework.
-
-Thanks to my background in algorithmic thinking and familiarity with a wide range of languages and frameworks, I was able to plan, structure, and implement the application quickly and confidently.
-
-That said, I did use ChatGPT in a supporting role throughout the development process — primarily to streamline repetitive tasks, clarify certain syntax rules, and bounce ideas for code structure and implementation.
-
----
-❗ However, all critical decisions, system design, business logic, and final implementation were entirely my own. ChatGPT served as a productivity tool, not a replacement for original work or problem-solving.
----
-
-This reflects a real-world development approach, where experienced engineers leverage modern tools and assistants to speed up workflows — while retaining full responsibility and authorship over their code.
-
