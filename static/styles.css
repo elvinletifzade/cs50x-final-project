@@ -1,0 +1,81 @@
+body {
+    background-color: #f4f6f9;
+    font-family: "Segoe UI", sans-serif;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.table-danger {
+    background-color: #f8d7da !important;
+}
+.table-warning {
+    background-color: #fff3cd !important;
+}
+.table-info {
+    background-color: #cff4fc !important;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.alert {
+    margin-top: 10px;
+}
+
+.btn {
+    min-width: 120px;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #888;
+}
+
+.legend-label {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 15px;
+    font-size: 0.9rem;
+}
+
+.legend-color {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 6px;
+    border-radius: 3px;
+}
+
+.legend-danger {
+    background-color: #dc3545;
+}
+
+.legend-warning {
+    background-color: #ffc107;
+}
+
+.legend-info {
+    background-color: #0dcaf0;
+}
+
+.legend-default {
+    background-color: #dee2e6;
+}
+
+.auth-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+}

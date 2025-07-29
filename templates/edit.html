@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Edit Reminder
+{% endblock %}
+
+{% block content %}
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+                        <h3 class="card-title mb-4 text-center">Edit Reminder</h3>
+
+                        {% if error %}
+                            <div class="alert alert-danger">{{ error }}</div>
+                        {% endif %}
+
+                        <form method="POST">
+                            <div class="mb-3">
+                                <label for="title" class="form-label">Title</label>
+                                <input type="text" name="title" id="title" class="form-control" value="{{ reminder.title }}" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="frequency" class="form-label">Frequency</label>
+                                <select name="frequency" id="frequency" class="form-select" required>
+                                    <option value="" disabled>Select...</option>
+                                    <option value="monthly" {% if reminder.frequency == "monthly" %}selected{% endif %}>Monthly</option>
+                                    <option value="yearly" {% if reminder.frequency == "yearly" %}selected{% endif %}>Yearly</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="due_date" class="form-label">Due Date</label>
+                                <input type="date" name="due_date" id="due_date" class="form-control" value="{{ reminder.due_date }}" required>
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                                <a href="/" class="btn btn-secondary">← Back</a>
+                                <button class="btn btn-primary" type="submit">Update Reminder</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
